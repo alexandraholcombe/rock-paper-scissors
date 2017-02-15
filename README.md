@@ -25,9 +25,33 @@ This web application will recreate the game Rock, Paper, Scissors with two playe
 
 ## Specifications
 
-**When the user inputs 1 cent, the program will return 1 penny.**
-* Example Input: 1
-* Example Output: 1 penny
+**If both players choose the same thing, the game returns a "Draw."**
+* Example Player1: "Rock" and  Player2 : "Rock"
+* Example Output: "It's a tie."
+
+**If player 1 chooses "rock" and player 2 chooses "scissors," then player 1 wins.**
+* Example Input: Player 1: "Rock" Player 2: "Scissors"
+* Example Output: "Player 1 Wins!"
+
+**If player 1 chooses "rock" and player 2 chooses "paper," then player 2 wins.**
+* Example Input: Player 1: "Rock" Player 2: "Paper"
+* Example Output: "Player 2 Wins!"
+
+**If player 1 chooses "scissors" and player 2 chooses "rock," then player 2 wins.**
+* Example Input: Player 1: "Scissors" Player 2: "Paper"
+* Example Output: "Player 2 Wins!"
+
+**If player 1 chooses "scissors" and player 2 chooses "paper," then player 1 wins.**
+* Example Input: Player 1: "scissors" Player 2: "paper"
+* Example Output: "Player 1 wins!"
+
+**If player 1 chooses "paper" and player 2 chooses "rock," then player 1 wins.**
+* Example Input: Player 1: "paper" Player 2: "rock"
+* Example Output: "Player 1 Wins!"
+
+**If player 1 chooses "paper" and player 2 chooses "scissors," then player 2 wins.**
+* Example Input: Player 1: "paper" Player 2: "scissors"
+* Example Output: "Player 2 Wins!"
 
 ## Support and contact details
 
