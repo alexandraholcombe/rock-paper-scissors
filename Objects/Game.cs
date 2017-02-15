@@ -26,13 +26,16 @@ namespace RockPaperScissors.Objects
     public string PlayGame()
     {
       string player1 = GetPlayer1();
+      Console.WriteLine(player1);
       string player2 = GetPlayer2();
+      Console.WriteLine(player2);
 
       string player1Win = "Player 1 Wins!";
       string player2Win = "Player 2 Wins!";
       string draw = "Draw!";
 
       bool p1RockP2Scissors = player1.Equals("rock") && player2.Equals("scissors");
+      Console.WriteLine(p1RockP2Scissors);
       bool p1ScissorsP2Rock = player1.Equals("scissors") && player2.Equals("paper");
       bool p1PaperP2Rock = player1.Equals("paper") && player2.Equals("rock");
 
