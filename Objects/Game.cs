@@ -40,6 +40,10 @@ namespace RockPaperScissors.Objects
       {
         return player1Win;
       }
+      else if (player1.Equals("scissors") && player2.Equals("paper"))
+      {
+        return player1Win;
+      }
       else
       {
         return "oops";
