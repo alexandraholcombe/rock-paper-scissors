@@ -27,9 +27,18 @@ namespace RockPaperScissors.Objects
     {
       string player1 = GetPlayer1();
       string player2 = GetPlayer2();
-      if (player1.Equals(player2) )
+
+      string player1Win = "Player 1 Wins!";
+      string player2Win = "Player 2 Wins!";
+      string draw = "Draw!";
+
+      if (player1.Equals(player2))
       {
-        return "draw";
+        return draw;
+      }
+      else if (player1.Equals("rock") && player2.Equals("scissors"))
+      {
+        return player1Win;
       }
       else
       {
