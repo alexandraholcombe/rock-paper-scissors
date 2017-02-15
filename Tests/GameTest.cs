@@ -14,7 +14,7 @@ namespace RockPaperScissors
         string player2Input = "rock";
         Game testGame = new Game(player1Input,player2Input);
         string result = Game.PlayGame();
-        string expectedResult = "draw"
+        string expectedResult = "draw";
         Assert.Equal(expectedResult, result);
       }
 
