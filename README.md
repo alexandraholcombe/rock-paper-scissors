@@ -55,7 +55,7 @@ This web application will recreate the game Rock, Paper, Scissors with two playe
 
 ## Support and contact details
 
-Please contact Allie Holcombe at alexandra.holcombe@gmail.com or Katy Daviscourt at katy.daviscourt@gmail.com with any questions, concerns, or suggestions.
+Please contact Allie Holcombe at alexandra.holcombe@gmail.com or Shruti Priya at shrutipriya1808@gmail.com with any questions, concerns, or suggestions.
 
 ## Technologies Used
 
