@@ -1,13 +1,13 @@
 using System;
 
-namespace RockPaperScissors
+namespace RockPaperScissors.Objects
 {
   public class Game
   {
     private string _player1;
     private string _player2;
-    
-    public Game(player1, player2)
+
+    public Game(string player1, string player2)
     {
       _player1 = player1;
       _player2 = player2;
@@ -30,6 +30,10 @@ namespace RockPaperScissors
       if (player1.Equals(player2) )
       {
         return "draw";
+      }
+      else
+      {
+        return "oops";
       }
     }
   }
