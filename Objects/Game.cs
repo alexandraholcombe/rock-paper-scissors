@@ -32,19 +32,15 @@ namespace RockPaperScissors.Objects
       string player2Win = "Player 2 Wins!";
       string draw = "Draw!";
 
+      bool p1RockP2Scissors = player1.Equals("rock") && player2.Equals("scissors");
+      bool p1ScissorsP2Rock = player1.Equals("scissors") && player2.Equals("paper");
+      bool p1PaperP2Rock = player1.Equals("paper") && player2.Equals("rock");
+
       if (player1.Equals(player2))
       {
         return draw;
       }
-      else if (player1.Equals("rock") && player2.Equals("scissors"))
-      {
-        return player1Win;
-      }
-      else if (player1.Equals("scissors") && player2.Equals("paper"))
-      {
-        return player1Win;
-      }
-      else if (player1.Equals("paper") && player2.Equals("rock"))
+      else if (p1RockP2Scissors || p1ScissorsP2Rock || p1PaperP2Rock)
       {
         return player1Win;
       }
