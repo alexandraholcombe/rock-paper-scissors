@@ -1,0 +1,33 @@
+h2 {
+  text-align: center;
+}
+
+.radio-container {
+  margin: 0 auto;
+}
+
+.row {
+  text-align: center;
+}
+
+.btn-play {
+  margin: 30px auto;
+  width: 40%;
+}
+
+label {
+  display: inline;
+}
+
+label > input {
+  visibility: hidden;
+}
+
+label > input + img {
+  cursor: pointer;
+  width: 28%;
+}
+
+/*.col-md-6 {
+  border: 2px solid red;
+}*/

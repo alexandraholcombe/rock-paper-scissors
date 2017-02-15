@@ -1,0 +1,46 @@
+@{
+  Layout="Shared/_Layout.cshtml";
+}
+
+<form action="results.cshtml" method="post">
+
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Player 1</h2>
+      <div class="radio-container">
+        <label for="player-1-rock">
+          <input type="radio" name="player-1-rock" id="player-1-rock" value="rock">
+          <img src="~/Content/img/rock.png" alt="rock">
+        </label>
+        <label for="player-1-paper">
+          <input type="radio" name="player-1-paper" id="player-1-paper" value="paper">
+          <img src="~/Content/img/paper.png" alt="paper">
+        </label>
+        <label for="player-1-scissors">
+          <input type="radio" name="player-1-scissors" id="player-1-scissors" value="scissors">
+          <img src="~/Content/img/scissors.png" alt="scissors">
+        </label>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h2>Player 2</h2>
+      <div class="radio-container">
+        <label for="player-2-rock">
+          <input type="radio" name="player-2-rock" id="player-2-rock" value="rock">
+          <img src="~/Content/img/rock.png" alt="rock">
+        </label>
+        <label for="player-2-paper">
+          <input type="radio" name="player-2-paper" id="player-2-paper" value="paper">
+          <img src="~/Content/img/paper.png" alt="paper">
+        </label>
+        <label for="player-2-scissors">
+          <input type="radio" name="player-2-scissors" id="player-2-scissors" value="scissors">
+          <img src="~/Content/img/scissors.png" alt="scissors">
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <button type="submit" class="btn btn-lg btn-play">Play</button>
+  </div>
+</form>
