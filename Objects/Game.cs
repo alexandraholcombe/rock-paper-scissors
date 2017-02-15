@@ -50,7 +50,7 @@ namespace RockPaperScissors.Objects
       }
       else
       {
-        return "oops";
+        return player2Win;
       }
     }
   }

@@ -54,6 +54,17 @@ namespace RockPaperScissors
       string expectedResult = player1Win;
       Assert.Equal(expectedResult, result);
     }
+    [Fact]
+    public void PlayGame_ForPlayer1RockPlayer2Paper_player2()
+    {
+      string player1Input = "rock";
+      string player2Input = "paper";
+      Game testGame = new Game(player1Input,player2Input);
+      string result = testGame.PlayGame();
+      string expectedResult = player2Win;
+      Assert.Equal(expectedResult, result);
+    }
+
 
   }
 }
