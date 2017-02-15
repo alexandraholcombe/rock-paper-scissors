@@ -21,13 +21,53 @@ label {
 
 label > input {
   visibility: hidden;
+  position: absolute;
+}
+
+label > input + img { /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid red;
+}
+
+.img-input input {
+  margin: 0;
+  padding: 0;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+}
+
+.img-input {
+  cursor:pointer;
+  background-size:contain;
+  background-repeat:no-repeat;
+  display:inline-block;
+  width:100px;height:70px;
+  -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+  -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+  filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+
+/*label > input {
+visibility: hidden;
+position: absolute;
+}
+
+label > input:checked + img {
+border: 2px solid red;
 }
 
 label > input + img {
-  cursor: pointer;
-  width: 28%;
-}
+cursor: pointer;
+width: 28%;
+}*/
 
 /*.col-md-6 {
-  border: 2px solid red;
+border: 2px solid red;
 }*/
