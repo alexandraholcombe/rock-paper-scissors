@@ -1,5 +1,8 @@
 h2 {
   text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  text-transform:uppercase;
+  font-size: 40px;
 }
 
 .radio-container {
@@ -16,7 +19,7 @@ h2 {
 }
 
 label {
-  display: inline;
+  padding: 30px;
 }
 
 label > input {
@@ -25,13 +28,16 @@ label > input {
 }
 
 label > input + img { /* IMAGE STYLES */
-  display: inline;
+  /*display: inline;*/
   cursor:pointer;
   border:2px solid transparent;
-  width: 30%;
+  width: 60%;
+  background-color: #fff;
+  padding: 30px;
+  border: 40px solid #d3d3d3;
 }
 label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
-  border:2px solid red;
+  border: 0px;
 }
 
 .img-input input {
@@ -41,35 +47,3 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
   -moz-appearance:none;
   appearance:none;
 }
-
-.img-input {
-  cursor:pointer;
-  background-size:contain;
-  background-repeat:no-repeat;
-  display:inline-block;
-  width:100px;height:70px;
-  -webkit-transition: all 100ms ease-in;
-  -moz-transition: all 100ms ease-in;
-  transition: all 100ms ease-in;
-  -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
-  -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
-  filter: brightness(1.8) grayscale(1) opacity(.7);
-}
-
-/*label > input {
-visibility: hidden;
-position: absolute;
-}
-
-label > input:checked + img {
-border: 2px solid red;
-}
-
-label > input + img {
-cursor: pointer;
-width: 28%;
-}*/
-
-/*.col-md-6 {
-border: 2px solid red;
-}*/
